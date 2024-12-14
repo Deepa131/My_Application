@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Email"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpinnerActivity">
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:id="@+id/textView"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country" />
+
+    <Spinner
+        android:id="@+id/spinnerCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/displayCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Country:" />
+
+    <TextView
+        android:id="@+id/displayCities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cities" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choose cities" />
+</LinearLayout>
+
+<!--to increase font size use sp and layout use dp-->
